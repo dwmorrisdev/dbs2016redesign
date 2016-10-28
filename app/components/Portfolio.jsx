@@ -5,7 +5,7 @@ var Portfolio = (props) => {
     return (
         <div >
           <h1 className="text-center page-title">Portfolio</h1>
-          <p> INSERT PORT HERE</p>
+          <p className="text-center"> INSERT PORT HERE</p>
 
         </div>
     );
