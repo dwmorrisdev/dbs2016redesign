@@ -3,7 +3,7 @@ var React = require('react');
 var About = (props) => {
     return (
         <div >
-            <h1 className="text-center page-title">Who I am</h1>
+            <h1 className="text-center page-title">Who I am</h1><hr/>
             <div className="row">
                 <div className="medium-6 columns text-center">
                     <h3>Hi, I'm Dustin</h3>
@@ -33,7 +33,7 @@ var About = (props) => {
                         </ul>
                     </div>
                 </div>
-                <div className="medium-6 columns">
+                <div className="medium-6 columns text-center">
                     <img src="#" alt="Photo of Dustin Morris"/>
                     <p>insert image here</p>
                 </div>
