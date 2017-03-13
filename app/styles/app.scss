@@ -6,25 +6,80 @@
   transform: translateY(-50%);
 }
 
-//
-// .hero {
-//   background: url('http://static.pexels.com/wp-content/uploads/2014/07/beach-coast-holiday-2190-825x550.jpg') no-repeat center center;
-// 	background-size: cover;
-//   height: 50vh;
-//   overflow: hidden;
-//   h1 {
-//     color: #fff;
-//     text-align: center;
-//     @include vertical-align;
-//   }
-// }
+// --------------------Fonts ----------------------
+@import url('https://fonts.googleapis.com/css?family=Frijole|PT+Sans+Narrow|Rock+Salt|Walter+Turncoat');
+
+// -------------------- Colors ----------------------
+//palette:
+$light: #E6F3FB;
+$med-light: #CED0E0;
+$med-dark: #49483F;
+$dark:  #131D15;
+
+// ----------------------- Header ---------------------
+
+.calltoaction{
+  background: url('https://s19.postimg.org/noidqy1cj/andre_hunter_168807.jpg') no-repeat center center;
+  background-size: cover;
+  height: 720px;
+  h1{
+    font-family: 'Rock Salt', cursive;
+    color: $light;
+    font-size: 3rem;
+    @include vertical-align;
+  }
+
+}
+
+.overlay:before{
+  position: absolute;
+  content:" ";
+  top:65px;
+  left:0;
+  width:100%;
+  height:89%;
+  display: block;
+  z-index:0;
+  background-color: rgba(0,0,0,0.3);
+  overflow: hidden;
+}
+
+// ----------------- Portfolio --------------------------
+
+.port{
+  background: url('https://s19.postimg.org/i4ahu1rv7/dimitris_adalialis_26303.jpg') no-repeat center center;
+  background-size: 100%;
+  padding-top: 45px;
+  padding-bottom: 50px;
+  margin-bottom: 0;
+  color: $light;
+  p{
+    font-family: 'PT Sans Narrow', sans-serif;
+  }
+  h1,h2,h3{
+    font-family: 'Rock Salt', cursive;
+  }
+}
+
+.slim{
+  margin-top: 1.1rem;
+  margin-bottom: 1.1rem;
+}
+
+img{
+  background-color: orange;
+  width: 75%;
+  // height: 300px;
+}
+
+// ----------------------------- Footer -----------------------------
 
 .footer {
   background-color: #292c2f;
   text-align: center;
   font-size: 1.2rem;
   padding: 4rem;
-  margin-top: 2rem;
+  margin-top: 0;
   p {
     &.slogan {
       color: #8d9093;

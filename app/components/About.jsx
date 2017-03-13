@@ -34,7 +34,7 @@ var About = (props) => {
                     </div>
                 </div>
                 <div className="medium-6 columns text-center">
-                    <img src="#" alt="Photo of Dustin Morris"/>
+                    <img src="../assets/img/dwmorris2016.jpg" alt="Photo of Dustin Morris"/>
                     <p>insert image here</p>
                 </div>
             </div>

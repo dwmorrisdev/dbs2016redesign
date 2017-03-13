@@ -14,7 +14,7 @@ var Footer = (props) => {
                   <a href="#" target="_blank">Google+</a>
                   <a href="#" target="_blank">Instagram</a>
                 </p>
-                <p className="copywrite">© Copywrite designbysparticus 2016</p>
+                <p className="copywrite">© designbysparticus 2016</p>
               </div>
             </div>
           </footer>
